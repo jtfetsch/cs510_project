@@ -9,3 +9,4 @@ data/*
 train_data
 enwiki*
 grobid_processed
+grobid_data.pkl
