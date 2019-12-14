@@ -8,3 +8,4 @@ data/*
 !content_representation/*
 train_data
 enwiki*
+grobid_processed
