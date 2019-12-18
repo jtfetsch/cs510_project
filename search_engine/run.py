@@ -6,4 +6,4 @@ if __name__ == "__main__":
     app.config['MODEL'] = model
     app.config['REC_FUNCTION'] = recommend
     app.config['RECORD_FUNCTION'] = record
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=80)

@@ -1,8 +1,10 @@
 from flask import Flask
+from flask_cors import CORS
 
 app = Flask(__name__, 
             static_url_path='', 
             static_folder='static')
+CORS(app)
 
 # DB config, 'MYSQL_DB' should not be changed
 app.config['MYSQL_HOST'] = 'localhost'
