@@ -1,6 +1,6 @@
 let numResults;
 let query = "";
-const URL = "http://3.221.3.73/";
+const URL = "http://35.171.195.172/";
 
 const doSearch = function() {
 	$(".results-wrapper").empty();
