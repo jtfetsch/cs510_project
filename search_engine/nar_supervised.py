@@ -1,8 +1,8 @@
+import torch
 import pickle
 import random
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import StandardScaler
-import torch
 from embedder import Embedder
 import os
 import json
